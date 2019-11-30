@@ -12,7 +12,7 @@ module.exports = {
       colors: {
         transparent: 'transparent',
   
-        black: '#000',
+        black: '#222222',
         white: '#fff',
   
         gray: {
@@ -25,6 +25,7 @@ module.exports = {
           700: '#4a5568',
           800: '#2d3748',
           900: '#1a202c',
+          darkest: '#4a4a4a'
         },
         red: {
           100: '#fff5f5',
@@ -221,6 +222,7 @@ module.exports = {
       },
       fontFamily: {
         sans: [
+          'Open Sans',
           '-apple-system',
           'BlinkMacSystemFont',
           '"Segoe UI"',
@@ -297,7 +299,8 @@ module.exports = {
         snug: '1.375',
         normal: '1.5',
         relaxed: '1.625',
-        loose: '2',
+        loose: '40px',
+        
       },
       listStyleType: {
         none: 'none',
