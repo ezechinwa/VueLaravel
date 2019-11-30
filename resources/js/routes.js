@@ -7,11 +7,16 @@ import Mascot from './components/Mascot'
 import WallPapers from './components/WallPapers'
 import Animations from './components/Animations'
 import Illustrations from './components/Illustrations'
+import NOTFOUND from './components/NOTFOUND'
 
 export default {
     mode: 'history',
     linkActiveClass: "font-bold",
     routes: [
+        {
+            path: '*',
+            component : NOTFOUND
+       },,
         {
              path: '/',
              component : Logo
